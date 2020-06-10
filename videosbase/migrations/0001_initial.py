@@ -27,6 +27,7 @@ class Migration(migrations.Migration):
             fields=[
                 ('id', models.AutoField(auto_created=True, primary_key=True, serialize=False, verbose_name='ID')),
                 ('video_endereco', models.CharField(max_length=100)),
+                ('video_assunto', models.CharField(max_length=100)),
                 ('inicio', models.IntegerField()),
                 ('fim', models.IntegerField()),
             ],
